@@ -28,7 +28,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": -168
           }
         },
@@ -49,7 +49,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": -120
           }
         },
@@ -70,7 +70,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": -72
           }
         },
@@ -91,7 +91,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": -24
           }
         },
@@ -132,7 +132,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": 24
           }
         },
@@ -173,7 +173,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": 72
           }
         },
@@ -214,7 +214,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": 120
           }
         },
@@ -256,7 +256,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 768,
+            "x": 864,
             "y": 168
           }
         },
@@ -597,7 +597,7 @@
             "oldBlockColor": "deepskyblue"
           },
           "position": {
-            "x": 528,
+            "x": 688,
             "y": 600
           }
         },
@@ -1164,7 +1164,7 @@
           "type": "basic.memory",
           "data": {
             "name": "",
-            "list": "00000000\n00110110\n00110110\n00000000\n10000001\n01111110\n00000000\n00000000",
+            "list": "11000001\n11000000\n00011000\n00111100\n00011000\n00000111\n10000101\n11000111",
             "local": false,
             "format": 10
           },
@@ -1178,17 +1178,17 @@
           }
         },
         {
-          "id": "5fc51222-7521-4f03-a005-f70b721bff4f",
+          "id": "0080a72b-bfba-4b30-9602-e0571739432b",
           "type": "basic.memory",
           "data": {
             "name": "",
-            "list": "00000001\n00000010\n00000100\n00001000\n00010000\n00100000\n01000000\n10000000",
+            "list": "10000000\n01000000\n00100000\n00010000\n00001000\n00000100\n00000010\n00000001",
             "local": false,
             "format": 2
           },
           "position": {
-            "x": 296,
-            "y": -216
+            "x": 240,
+            "y": -344
           },
           "size": {
             "width": 160,
@@ -1205,8 +1205,44 @@
             "format": 10
           },
           "position": {
-            "x": 320,
-            "y": 408
+            "x": 280,
+            "y": 360
+          },
+          "size": {
+            "width": 144,
+            "height": 160
+          }
+        },
+        {
+          "id": "5fc51222-7521-4f03-a005-f70b721bff4f",
+          "type": "basic.memory",
+          "data": {
+            "name": "",
+            "list": "00000001\n00000010\n00000100\n00001000\n00010000\n00100000\n01000000\n10000000",
+            "local": false,
+            "format": 2
+          },
+          "position": {
+            "x": 432,
+            "y": -344
+          },
+          "size": {
+            "width": 160,
+            "height": 184
+          }
+        },
+        {
+          "id": "c49a39b6-9e0b-46fa-adf7-e81b77019a7c",
+          "type": "basic.memory",
+          "data": {
+            "name": "",
+            "list": "01111111\n10111111\n11011111\n11101111\n11110111\n11111011\n11111101\n11111110\n",
+            "local": false,
+            "format": 10
+          },
+          "position": {
+            "x": 488,
+            "y": 360
           },
           "size": {
             "width": 144,
@@ -1217,7 +1253,7 @@
           "id": "996ab772-56a2-444c-bca0-a3ec650372bd",
           "type": "2a562b185e9f042940d3e30cc1c1ff9f024622a0",
           "position": {
-            "x": 344,
+            "x": 408,
             "y": 600
           },
           "size": {
@@ -1241,8 +1277,8 @@
           "id": "f7c079cb-e926-42ea-82c4-7f421494a8e7",
           "type": "2a562b185e9f042940d3e30cc1c1ff9f024622a0",
           "position": {
-            "x": 328,
-            "y": 0
+            "x": 376,
+            "y": 8
           },
           "size": {
             "width": 96,
@@ -1289,7 +1325,7 @@
           "id": "287bb690-8e9a-4b69-aa60-639e6f17ca76",
           "type": "basic.info",
           "data": {
-            "info": "# RELOJ DE VIDEO\n\nComo se deben de pintar 64 LEDS y la frecuencia para que el \nojo humano sienta persistencia es de 60Hz, el reloj debe calcularse:\n\n**60 x 64 = 3840Hz**",
+            "info": "## RELOJ DE VIDEO\n\nComo se deben de pintar 64 LEDS y la frecuencia para que el \nojo humano sienta persistencia es de 60Hz, el reloj debe calcularse:\n\n**60 x 64 = 3840Hz**",
             "readonly": true
           },
           "position": {
@@ -1425,7 +1461,7 @@
           "id": "40636181-3cde-4cc6-9101-9dea87538629",
           "type": "bc6704f8d5503fbc85950929fcb953df0dc45951",
           "position": {
-            "x": 536,
+            "x": 632,
             "y": -96
           },
           "size": {
@@ -1461,7 +1497,7 @@
           "id": "e4e33bd4-4583-4b1a-9f89-66ec844595d3",
           "type": "basic.info",
           "data": {
-            "info": "# PIXELS\nEsta matriz es lo que se dibujará,\ndonde haya un 0 no se pintará, donde haya un 1 se pintará",
+            "info": "## PIXELS\nEsta matriz es lo que se dibujará,\ndonde haya un 0 no se pintará, donde haya un 1 se pintará",
             "readonly": true
           },
           "position": {
@@ -1477,7 +1513,7 @@
           "id": "004aee33-91ca-4123-bf91-28dc60f2037d",
           "type": "basic.info",
           "data": {
-            "info": "# MÁSCARA PIXEL x COLUMNA\nSe enmascara la fila a dibujar con el haz de pintado, así se pinta sólo el pixel deseado\n",
+            "info": "## MÁSCARA PIXEL x COLUMNA\nSe enmascara la fila a dibujar con el haz de pintado, así se pinta sólo el pixel deseado\n",
             "readonly": true
           },
           "position": {
@@ -1493,28 +1529,28 @@
           "id": "496238f4-1c4b-4197-8fd6-e73196eb9ea8",
           "type": "basic.info",
           "data": {
-            "info": "# HAZ DE FILAS\nSe recorren las filas como si un haz de electrones fuera en un CRT",
+            "info": "## HAZ DE FILAS\nSe recorren las filas como si un haz de electrones fuera en un CRT, cambiando el sentido de la diagonal de la matriz, estableceremos la coordenada 0,0 en una esquina u otra así como el sentido del escaneo,\nen el caso de utilizar como en este ejemplo un solo color, es decir led encendido o apagado, el sentido de las filas no afecta al resultado, sin embargo si cambiamos la máscara en el módulo de color por brillo, se producirá un efecto espejo en horizontal.",
             "readonly": true
           },
           "position": {
-            "x": -152,
-            "y": -296
+            "x": -168,
+            "y": -544
           },
           "size": {
-            "width": 496,
-            "height": 104
+            "width": 1240,
+            "height": 128
           }
         },
         {
           "id": "2afcbd48-9cee-4507-a526-bef892333164",
           "type": "basic.info",
           "data": {
-            "info": "# HAZ DE COLUMNAS\nSe recorren las columnas como si un haz de electrones fuera en un CRT",
+            "info": "## HAZ DE COLUMNAS\nSe recorren las columnas como si un haz de electrones fuera en un CRT, cambiando la matriz de barrido de las columnas, producimos un efecto espejo en la vertical.",
             "readonly": true
           },
           "position": {
-            "x": -176,
-            "y": 304
+            "x": -144,
+            "y": 240
           },
           "size": {
             "width": 496,
@@ -1525,7 +1561,7 @@
           "id": "8ea64464-7502-4330-a1b5-7ccfc77d3a4c",
           "type": "basic.info",
           "data": {
-            "info": "# RESET\nReinicialización del sistema",
+            "info": "## RESET\nReinicialización del sistema",
             "readonly": true
           },
           "position": {
@@ -1664,6 +1700,22 @@
             "width": 64,
             "height": 152
           }
+        },
+        {
+          "id": "239da05d-bba4-4b42-984e-21ba7f729afb",
+          "type": "basic.info",
+          "data": {
+            "info": "# CAMBIOS DE ORIENTACIÓN\n\nCambiando el sentido de la  diagonal de las matrices de barrido, cambiaremos el punto de origen 0,0 , así como el sentido de pintado.\n\nDe este modo podremos cambiar la orientación del dibujo sin necesidad de cambiar el hardware, muy útil para adecuar el display físico y poder reorientar el dibujo sin cambiar cableado.\n\n",
+            "readonly": true
+          },
+          "position": {
+            "x": -888,
+            "y": -552
+          },
+          "size": {
+            "width": 632,
+            "height": 448
+          }
         }
       ],
       "wires": [
@@ -1679,17 +1731,6 @@
         },
         {
           "source": {
-            "block": "5fc51222-7521-4f03-a005-f70b721bff4f",
-            "port": "memory-out"
-          },
-          "target": {
-            "block": "f7c079cb-e926-42ea-82c4-7f421494a8e7",
-            "port": "c71c44ac-0500-4eb5-9c1c-4ea21cd78377"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
             "block": "c5cb29f9-4f1d-49b0-ba84-dbfacd1627cb",
             "port": "constant-out"
           },
@@ -1698,16 +1739,6 @@
             "port": "eb9f9c33-e717-43f0-98eb-dbd9c278fa8c"
           },
           "vertices": []
-        },
-        {
-          "source": {
-            "block": "57d90d54-df6e-4816-99bd-f24f1b37359d",
-            "port": "memory-out"
-          },
-          "target": {
-            "block": "996ab772-56a2-444c-bca0-a3ec650372bd",
-            "port": "c71c44ac-0500-4eb5-9c1c-4ea21cd78377"
-          }
         },
         {
           "source": {
@@ -1929,7 +1960,7 @@
           },
           "vertices": [
             {
-              "x": 664,
+              "x": 760,
               "y": 192
             }
           ]
@@ -1945,7 +1976,7 @@
           },
           "vertices": [
             {
-              "x": 696,
+              "x": 792,
               "y": 152
             }
           ]
@@ -1981,7 +2012,7 @@
           },
           "vertices": [
             {
-              "x": 712,
+              "x": 808,
               "y": -32
             }
           ]
@@ -1997,7 +2028,7 @@
           },
           "vertices": [
             {
-              "x": 688,
+              "x": 784,
               "y": -56
             }
           ]
@@ -2013,7 +2044,7 @@
           },
           "vertices": [
             {
-              "x": 656,
+              "x": 752,
               "y": -104
             }
           ]
@@ -2029,7 +2060,7 @@
           },
           "vertices": [
             {
-              "x": 720,
+              "x": 816,
               "y": 88
             }
           ]
@@ -2455,6 +2486,26 @@
           "target": {
             "block": "43186a4c-69fa-45f6-a80e-1a5823e54105",
             "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "5fc51222-7521-4f03-a005-f70b721bff4f",
+            "port": "memory-out"
+          },
+          "target": {
+            "block": "f7c079cb-e926-42ea-82c4-7f421494a8e7",
+            "port": "c71c44ac-0500-4eb5-9c1c-4ea21cd78377"
+          }
+        },
+        {
+          "source": {
+            "block": "57d90d54-df6e-4816-99bd-f24f1b37359d",
+            "port": "memory-out"
+          },
+          "target": {
+            "block": "996ab772-56a2-444c-bca0-a3ec650372bd",
+            "port": "c71c44ac-0500-4eb5-9c1c-4ea21cd78377"
           }
         }
       ]
